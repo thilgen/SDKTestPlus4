@@ -1,0 +1,63 @@
+<?xml version="1.0" ?>
+<!-- ========================================================================== -->
+<!-- DepositAddRq.xml                                                           -->
+<!--                                                                            -->
+<!-- INTUIT CONFIDENTIAL.                                                       -->
+<!-- Copyright (c) 2002-2013 Intuit Inc. All rights reserved.                   -->
+<!-- Use is subject to the terms specified at:                                  -->
+<!--          http://developer.intuit.com/legal/devsite_tos.html                -->
+<!--                                                                            -->
+<!-- ========================================================================== -->
+<!-- Summary: Sample illustrating a Deposit Add request.                        -->
+<!--                                                                            -->
+<!-- Description:                                                               -->
+<!-- This XML file contains a single request to add a deposit to a checking     -->
+<!-- account. This sample requires there to be an account named "Checking".     -->
+<!-- ========================================================================== -->
+<!-- Language: xml                                                            -->
+<!-- Structure: QBXML                                                            -->
+<!-- QuickBooks: any                                                            -->
+<!-- Deployment: any                                                            -->
+<!-- ========================================================================== -->
+<?qbxml version="2.0" ?>
+<QBXML>
+  <QBXMLMsgsRq onError = "stopOnError">
+    <DepositAddRq requestID = "0">
+      <DepositAdd>
+        <TxnDate>2020-03-01</TxnDate>
+        <DepositToAccountRef>
+          <FullName>Cash - ETrade</FullName>
+        </DepositToAccountRef>        
+        <DepositLineAdd>
+          <EntityRef>
+            <FullName>Epps Realty</FullName>
+          </EntityRef>
+          <AccountRef>
+            <FullName>410 Lowell:Maint &amp; Repairs</FullName>
+          </AccountRef>
+          <Memo>Lawn Care</Memo>
+          <Amount>-184.20</Amount>
+        </DepositLineAdd>
+        <DepositLineAdd>
+          <EntityRef>
+            <FullName>Epps Realty</FullName>
+          </EntityRef>
+          <AccountRef>
+            <FullName>410 Lowell:Maint &amp; Repairs</FullName>
+          </AccountRef>
+          <Memo>Thermostat</Memo>
+          <Amount>-132.08</Amount>
+        </DepositLineAdd>
+        <DepositLineAdd>
+          <EntityRef>
+            <FullName>Epps Realty</FullName>
+          </EntityRef>
+          <AccountRef>
+            <FullName>410 Lowell - Rent Income</FullName>
+          </AccountRef>
+          <Amount>1875.00</Amount>
+        </DepositLineAdd>
+      </DepositAdd>
+    </DepositAddRq>
+  </QBXMLMsgsRq>
+</QBXML>

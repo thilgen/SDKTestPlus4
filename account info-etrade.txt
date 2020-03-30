@@ -1,0 +1,37 @@
+-<AccountRet>
+<ListID>8000001E-1218736882</ListID>
+<TimeCreated>2008-08-14T13:01:22-06:00</TimeCreated>
+<TimeModified>2020-03-15T11:37:58-06:00</TimeModified>
+<EditSequence>1584290278</EditSequence>
+<Name>Cash - ETrade</Name>
+<FullName>Cash - ETrade</FullName>
+<IsActive>true</IsActive>
+<Sublevel>0</Sublevel>
+<AccountType>Bank</AccountType>
+<Balance>686.72</Balance>
+<TotalBalance>686.72</TotalBalance>
+-<TaxLineInfoRet>
+<TaxLineID>1535</TaxLineID>
+<TaxLineName>B/S-Assets: Cash</TaxLineName>
+</TaxLineInfoRet>
+<CashFlowClassification>NotApplicable</CashFlowClassification>
+</AccountRet>
+
+-<AccountRet>
+<ListID>80000063-1218738420</ListID>
+<TimeCreated>2008-08-14T13:27:00-06:00</TimeCreated>
+<TimeModified>2020-02-26T19:57:21-06:00</TimeModified>
+<EditSequence>1571082014</EditSequence>
+<Name>Maint & Repairs</Name>
+<FullName>410 Lowell:Maint & Repairs</FullName>
+<IsActive>true</IsActive>
+-<ParentRef>
+<ListID>80000045-1218738023</ListID>
+<FullName>410 Lowell</FullName>
+</ParentRef>
+<Sublevel>1</Sublevel>
+<AccountType>CostOfGoodsSold</AccountType>
+<Balance>30775.75</Balance>
+<TotalBalance>30775.75</TotalBalance>
+<CashFlowClassification>None</CashFlowClassification>
+</AccountRet>
